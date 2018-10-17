@@ -20,4 +20,5 @@ Due to time constraint I have written test cases only for below modules:
 
 ## WireFrame:
 Below you can see the complete wireframe of this APP:
-<img src="http://www.thinkotech.com/wp-content/uploads/2017/10/email-alert.png" width="300" height="534"/>
+
+![](WireFrame.png)
