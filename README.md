@@ -11,12 +11,12 @@ To develop this project I have followed MVVM - C architecture, here C is configu
 ## Unit Test and Code Coverage:
 Due to time constraint I have written test cases only for below modules:
 1. Network class “APIClient” which is responsible to handle all the network calls. By creating mock object of URLSession I have covered following cases:
-1. Is this class getting success response if API returns correct data.
-2. Is this class getting error response if API returns any network error.
-3. Is this class getting parsing error in case API returns incorrect data. 
+    1. Is this class getting success response if API returns correct data.
+    2. Is this class getting error response if API returns any network error.
+    3. Is this class getting parsing error in case API returns incorrect data. 
 2. ArticleListModelView, this class is responsible to handle all the business logic of calling api to fetch articles and instruct view to display them. By creating mock objects of View and API I have covered following cases:
-1. Is View refresh list method being called after getting successful response from API.
-2. Is View show error method being called after getting failure response from API.
+    1. Is View refresh list method being called after getting successful response from API.
+  2. Is View show error method being called after getting failure response from API.
 
 ## WireFrame:
 Below you can see the complete wireframe of this APP:
