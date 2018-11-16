@@ -1,10 +1,3 @@
-## Build and run the code:
-I have not included any libraries from Cocoapods or Carthage hence building and running of the code is straight forward. Please open the project in xCode and click run that you will see at top right corner in your xCode.
-
-Here is the tool and language version used to create the APP:
-xCode 9.4.1
-Swift 4
-
 ## Project Architecture:
 To develop this project I have followed MVVM - C architecture, here C is configurator where I created all the dependencies and injected them in concerned places. Here I have followed Protocol Oriented Programming concept introduced by Apple which is very efficient, therefore for every View, ViewModel, API etc I have created Protocols so that I could create mock objects for any class by implementing them which are helpful to write unit test cases.
 
